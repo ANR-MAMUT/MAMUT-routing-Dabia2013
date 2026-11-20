@@ -227,7 +227,7 @@
     },
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "R111.atf.json.gz",
+        "atf_path": "sidecars/n=100/R111.atf.json.gz",
         "atf_sha256": "d09b1a596b0e00747e81117959a3f2a556f9a4a01526714d408ced2e990a1a35"
     }
 }
