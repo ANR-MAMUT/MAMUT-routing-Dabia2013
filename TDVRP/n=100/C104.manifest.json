@@ -1,0 +1,36 @@
+{
+  "benchmark_revision": "r1",
+  "default_profile": "td-binary64-exact-v1",
+  "family": "Dabia2013",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "time-dependent-travel"
+  ],
+  "instance": {
+    "path": "TDVRP/n=100/C104.vrp.json",
+    "sha256": "a184c21ec6ad6d0c95cbe7e454f893ca3666621013248b2c9586070e2973d636"
+  },
+  "instance_name": "C104",
+  "materialization": {
+    "atf_stream_sha256": "3dff7df8424547235aa3174fe8d7fcffc16730f649d737a7a78ec4b85acd3a8e",
+    "canonical_atf_sha256": "29586eed844cc139aca346d36beab268a64c67d2fa1439c7bd59a319a4017f32",
+    "interpretation": "binary64",
+    "kind": "stored-atf"
+  },
+  "objective": "Duration",
+  "problem": "TDVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/n=100/C104.atf.json.gz",
+      "scope": "decompressed",
+      "sha256": "29586eed844cc139aca346d36beab268a64c67d2fa1439c7bd59a319a4017f32"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "Dabia2013 benchmark time unit",
+    "time": "Dabia2013 benchmark time unit"
+  }
+}
