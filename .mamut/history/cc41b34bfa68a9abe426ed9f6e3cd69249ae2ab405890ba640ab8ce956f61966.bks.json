@@ -1,0 +1,33 @@
+{
+    "instance_name": "RC105",
+    "routes": [
+        [6, 8, 7, 13],
+        [12, 11, 14, 9, 10, 17],
+        [16, 15, 2, 1, 5, 4, 3],
+        [19, 23, 22, 18, 20, 21, 25, 24]
+    ],
+    "cost": 6835.736855050216,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "Lera-Romero et al. 2020 (linear edge costs) published solutions",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-02",
+        "route_durations": [1266.7987739013834, 1733.190240696013, 1783.9143177022768, 2051.8335227505427],
+        "route_departure_times": [763.2010010980543, 243.14353930398696, 298.6666666666667, 330.4998472494576],
+        "published_duration_sum": 6835.736855050216,
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 6835.736855050216,
+            "dual_bound": 6835.736855050216,
+            "wall_time_s": 2.16,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}

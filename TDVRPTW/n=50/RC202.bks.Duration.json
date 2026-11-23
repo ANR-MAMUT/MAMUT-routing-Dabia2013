@@ -9,11 +9,66 @@
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
         "source": "Lera-Romero et al. 2020 (linear edge costs) published solutions",
-        "validated_by": "mamut-routing-lib td Duration checker",
+        "validated_by": "mamut-routing-lib",
         "date": "2026-07-02",
-        "route_durations": [2770.849700927767, 3220.2501961274347, 7285.614957353656],
-        "route_departure_times": [5860.150375072233, 1197.0, 390.86727019367635],
-        "published_duration_sum": 13276.714854408856
+        "route_durations": [2770.8497009277667, 3220.2501961274347, 7285.614957353656],
+        "route_departure_times": [5860.150375072233, 1197.0, 390.8672701936764],
+        "published_duration_sum": 13276.714854408856,
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 3,
+            "routes_sha256": "730621002bd26c3e1336480be89501007161e7581c2dfd1ae57a6e68e77a298e",
+            "authoritative_cost": {
+                "numerator": "22136791045927543858646246511583044374177578464653217523459510611693111996525817662175589927259894983234595973049099653592386175502420494216812202615105018859445961",
+                "denominator": "1667339495400587176870980848661462383468551204780587105514199889049465955904493880719361080642371852693064341854257000620461850842452024864001728688350920966144"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "7306871877146605286718681986245339758759510146446841937211",
+                        "denominator": "2637050964799728113542562247261052523574792665677430784"
+                    },
+                    "departure_time": {
+                        "numerator": "60843656175869318646888225057051199927873783",
+                        "denominator": "10382610049510777076700737035380776239104"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "3540702534990059",
+                        "denominator": "1099511627776"
+                    },
+                    "departure_time": {
+                        "numerator": "1197",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "633113492796709586490649452119870738437382110723368684097958810501465629440029427189981018176942980430669592481976920037",
+                        "denominator": "86899115105950448977083495075508402756201445914579917438391577903817451931734373739032608770257294814142378490724352"
+                    },
+                    "departure_time": {
+                        "numerator": "8870755363483264962448196729484911612958092315229452058149934506027636781125",
+                        "denominator": "22695057990114567425458129381652814839861150398243180243433682310799556608"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "57ba1024b5cf23bf9ef2a91b3eff04f0397f883b2ab86342c46bd5ddff184cf4"
+        },
+        "validated_cost": 13276.714854408858,
+        "validated_num_routes": 3
     },
     "objective_function": "Duration"
 }

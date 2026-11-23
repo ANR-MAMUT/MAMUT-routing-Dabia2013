@@ -1,0 +1,34 @@
+{
+    "instance_name": "C108",
+    "routes": [
+        [3, 7, 5, 8, 10, 11, 9, 6, 4, 2, 1],
+        [17, 18, 13, 19, 15, 14, 16, 12],
+        [20, 24, 25, 27, 29, 30, 28, 34, 23, 22, 21],
+        [32, 33, 31, 35, 37, 38, 39, 36, 26],
+        [43, 42, 41, 40, 44, 45, 46, 48, 50, 47, 49]
+    ],
+    "cost": 48219.24351422906,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "Lera-Romero et al. 2020 (linear edge costs) published solutions",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-02",
+        "route_durations": [10475.142664379515, 7948.463847693701, 10534.513515390487, 8850.966129605386, 10410.157357159971],
+        "route_departure_times": [22.00039428458777, 207.03579005744325, 42.48649420951645, 99.33333333333334, 0.0],
+        "published_duration_sum": 48219.24351422906,
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 48219.24351422906,
+            "dual_bound": 48219.243514229056,
+            "wall_time_s": 54.59,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}
