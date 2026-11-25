@@ -24,24 +24,6 @@
         "route_durations": [1997.1779445130223, 1239.404740930912, 2166.2858413304975, 1358.8938290600133, 1096.9994758164207, 1053.5329199346327, 333.19973360053274, 1415.1499220773962, 2084.324333379666, 2024.6668566693668, 1545.8502740666593, 1815.4336643843192, 2230.3903879645186],
         "route_departure_times": [130.85762154797197, 409.1662345805865, 15.714563670515059, 237.5558666666667, 236.00015428527348, 267.66666666666663, 943.2002135995727, 96.0, 59.74693088191178, 147.9998533306332, 737.9996189986425, 152.06650436610258, 23.10994578631555],
         "published_duration_sum": 20361.309923727957,
-        "optimality": {
-            "status": "solver-reported-optimal",
-            "target_profile": "td-fold/1",
-            "solver": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
-            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)",
-            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
-            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
-            "date": "2026-08-06",
-            "wall_time_s": 990.42,
-            "time_limit_s": 7200.0,
-            "reported_primal": 20361.309923727957,
-            "reported_dual": 20361.30992372502,
-            "evidence": {
-                "path": ".mamut/history/190af3f3b44e2fa0bfcc1dfdc4c45002e7e949d217459a6db82fbf9857afe9e8.bks.json",
-                "sha256": "190af3f3b44e2fa0bfcc1dfdc4c45002e7e949d217459a6db82fbf9857afe9e8",
-                "scope": "file"
-            }
-        },
         "standard": {
             "profile": "td-binary64-exact-v1",
             "objective": "Duration",

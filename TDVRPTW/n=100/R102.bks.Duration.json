@@ -27,24 +27,6 @@
         "route_durations": [1496.916780091845, 1885.00061, 1193.1423538789888, 2228.333190000975, 1932.7973451939406, 1741.3334633334234, 1498.7120220369277, 333.19973360053274, 1016.7327952006095, 993.2756347551667, 1848.284651186757, 2018.2666969066788, 1722.0774025709532, 642.3003616518923, 1244.0902794084195, 1561.700794852106],
         "route_departure_times": [406.2225333333334, 320.0, 420.2855220413656, 7.667200000000021, 232.53656480605923, 104.66666666666664, 160.42946613024878, 843.2002135995727, 195.66690000000003, 71.52417564521248, 138.85798554856655, 227.33333333333331, 368.2666418994317, 846.2000845992233, 7.809680543769899, 702.7997413992347],
         "published_duration_sum": 23356.164114669216,
-        "optimality": {
-            "status": "solver-reported-optimal",
-            "target_profile": "td-fold/1",
-            "solver": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
-            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)",
-            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
-            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
-            "date": "2026-08-06",
-            "wall_time_s": 41.19,
-            "time_limit_s": 7200.0,
-            "reported_primal": 23356.164114669213,
-            "reported_dual": 23356.164114669213,
-            "evidence": {
-                "path": ".mamut/history/3cef261f748510c415c508dd0a73bbdd9f022e9cb900b614c454a0cb30ad4ace.bks.json",
-                "sha256": "3cef261f748510c415c508dd0a73bbdd9f022e9cb900b614c454a0cb30ad4ace",
-                "scope": "file"
-            }
-        },
         "standard": {
             "profile": "td-binary64-exact-v1",
             "objective": "Duration",

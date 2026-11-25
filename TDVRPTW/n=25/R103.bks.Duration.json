@@ -15,24 +15,6 @@
         "route_durations": [1713.9986264349545, 1696.4284511618307, 2140.156345990583, 1001.3016400715923],
         "route_departure_times": [123.4293073448362, 362.22226666666666, 38.857988978031564, 609.49864025068],
         "published_duration_sum": 6551.8850636589605,
-        "optimality": {
-            "status": "solver-reported-optimal",
-            "target_profile": "td-fold/1",
-            "solver": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
-            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)",
-            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
-            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
-            "date": "2026-08-06",
-            "wall_time_s": 1.81,
-            "time_limit_s": 1800.0,
-            "reported_primal": 6551.88506365896,
-            "reported_dual": 6551.8850636589605,
-            "evidence": {
-                "path": ".mamut/history/217bab775ca61b134690e2244a78df6bde735d9d00a41595de5fd2ca6347f964.bks.json",
-                "sha256": "217bab775ca61b134690e2244a78df6bde735d9d00a41595de5fd2ca6347f964",
-                "scope": "file"
-            }
-        },
         "standard": {
             "profile": "td-binary64-exact-v1",
             "objective": "Duration",

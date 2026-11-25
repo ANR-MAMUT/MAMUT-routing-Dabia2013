@@ -31,24 +31,6 @@
         "route_durations": [1665.7508583761742, 1049.5991528016943, 1148.5997228005544, 1706.3751462514415, 1370.2847689006317, 1176.0945425870211, 1932.7973451939406, 1991.4754787360287, 869.9994240011521, 1049.1558370617822, 1599.7004845310996, 685.2506806267016, 1012.7998104003791, 2125.6425507027743, 1295.5666176174568, 383.4167718752297, 1967.9994682303472, 945.2279113207884, 1056.9332001335997, 1824.8564130955165],
         "route_departure_times": [407.9996760001619, 164.0, 100.0, 320.0, 409.4287747749578, 437.3333333333333, 232.53656480605923, 9.66720000000002, 1312.000575998848, 215.14357958977263, 226.0, 507.0, 52.00000000000002, 138.85798554856655, 227.33333333333331, 352.33332, 204.00063256969327, 846.2000845992233, 59.666666666666686, 310.0002],
         "published_duration_sum": 26857.526185244315,
-        "optimality": {
-            "status": "solver-reported-optimal",
-            "target_profile": "td-fold/1",
-            "solver": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
-            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)",
-            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
-            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
-            "date": "2026-08-06",
-            "wall_time_s": 2.9,
-            "time_limit_s": 7200.0,
-            "reported_primal": 26857.526185244315,
-            "reported_dual": 26857.52618524431,
-            "evidence": {
-                "path": ".mamut/history/598e3157c8b9b3592f92fe38f59768727feadd9b7a215422dca6367f968ee453.bks.json",
-                "sha256": "598e3157c8b9b3592f92fe38f59768727feadd9b7a215422dca6367f968ee453",
-                "scope": "file"
-            }
-        },
         "standard": {
             "profile": "td-binary64-exact-v1",
             "objective": "Duration",

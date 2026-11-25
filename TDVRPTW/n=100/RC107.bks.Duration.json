@@ -26,24 +26,6 @@
         "legacy_key": "RC107-n=102-3f7de6bea5b74f5e6cb80a97f80ef11c0deb2b35.json",
         "previous_cost": 20101.59190189448,
         "previous_source": "Lera-Romero et al. 2020 (linear edge costs) published solutions",
-        "optimality": {
-            "status": "solver-reported-optimal",
-            "target_profile": "td-fold/1",
-            "solver": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
-            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)",
-            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
-            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
-            "date": "2026-08-06",
-            "wall_time_s": 3220.61,
-            "time_limit_s": 7200.0,
-            "reported_primal": 19918.20692969383,
-            "reported_dual": 19918.206929693828,
-            "evidence": {
-                "path": ".mamut/history/d57354617af13bddde3ef949b949fa39804d0fa29a32acca5e6ab532294d31c1.bks.json",
-                "sha256": "d57354617af13bddde3ef949b949fa39804d0fa29a32acca5e6ab532294d31c1",
-                "scope": "file"
-            }
-        },
         "standard": {
             "profile": "td-binary64-exact-v1",
             "objective": "Duration",
