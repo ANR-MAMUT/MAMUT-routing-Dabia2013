@@ -28,7 +28,7 @@
       "sha256": "1577d5ea2d75dc54f16fb5c1810254048b466695c8c63c6f774d1b83d396cd78"
     }
   ],
-  "specification": "mamut-routing/0.1-review",
+  "specification": "mamut-routing/0.1",
   "units": {
     "cost": "Dabia2013 benchmark time unit",
     "time": "Dabia2013 benchmark time unit"

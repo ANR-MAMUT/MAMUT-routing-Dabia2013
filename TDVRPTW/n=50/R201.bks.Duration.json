@@ -107,9 +107,9 @@
                     }
                 }
             ],
-            "specification": "mamut-routing/0.1-review",
+            "specification": "mamut-routing/0.1",
             "benchmark_revision": "r1",
-            "manifest_sha256": "de556daf27e1777cc8ea07c77f518ae259d6736dd9519e8baac8c50e90b20691"
+            "manifest_sha256": "6d1c46733715949d8f45f1324c7e74bbaf00804c86e6db6bed112fb06c6ec59d"
         },
         "validated_cost": 14051.502498920067,
         "validated_num_routes": 7
